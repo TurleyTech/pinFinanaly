@@ -121,7 +121,7 @@ for j = 2:N
 end
 T_vals = theta_vals + T_ambient;
 
-% Optional: Plot
+%Plot
 figure;
 plot(x_vals, T_vals, 'b-', 'LineWidth', 2);
 xlabel('Fin Length (m)');
